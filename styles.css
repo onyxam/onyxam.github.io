@@ -1,0 +1,17 @@
+ @font-face { font-family: opensans; src: url('Resources/OpenSans-Regular.ttf');}
+
+body {
+	background-color: #222222;
+}
+
+h1 {
+	font-family: opensans;
+	color: purple;
+	font-size: 300px;
+}
+
+p {
+	color: #DDDDDD;
+	font-size: 16px;
+}
+

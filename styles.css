@@ -1,17 +1,46 @@
- @font-face { font-family: opensans; src: url('Resources/OpenSans-Regular.ttf');}
+ @font-face { font-family: opensans; src: url('website/Resources/NotoSansMono-Regular.otf');}
+ @font-face { font-family: comicsans; src: url('website/Resources/comic.ttf');}
 
 body {
-	background-color: #e100ff;
+	background-color: rgb(48, 45, 43);
 }
 
 h1 {
 	font-family: opensans;
+	font-style: italic;
 	color: white;
-	font-size: 300px;
+	font-size: 50px;
 }
 
 p {
-	color: #DDDDDD;
-	font-size: 16px;
+	font-family: opensans;
+	color: white;
+	font-size: 40px;
+}
+
+p1 {
+	
+	font-family: comicsans;
+	color: rgb(0, 89, 255);
+	font-size: 40px;
+}
+
+a {
+	font-family: opensans;
+	color: rgb(255, 0, 0);
+	font-size: 40px;
+}
+
+#links {
+	width: 120%;
+    height: 40px;
+    white-space: nowrap;
+    overflow-x: visible;
+}
+
+.link {
+	display: inline-block;
+    width: 50%;
+    height: 100%;
 }
 

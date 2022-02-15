@@ -14,3 +14,7 @@ function GitHub() {
 function YouTube() {
     window.location.href = "https://www.youtube.com/channel/UCgOuuyZ2QyfPONsJLlTrl1w";
 }
+
+function Balls() {
+    window.location.href = "https://onyxam.github.io/balls"
+}

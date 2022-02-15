@@ -1,33 +1,47 @@
+
 <!DOCTYPE html>
 <html>
 <head>
     
-<title> onyxam </title>
+<title> home </title>
 
-<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
 
-<link rel="icon" href="favicon.ico" type="image/x-icon" sizes="32x32, 48x48">
+    <link rel="icon" href="favicon.ico" type="image/x-icon" sizes="32x32, 48x48">
 
-<link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
+
+    <script type="text/javascript" src="website/Scripts/app.js"></script> 
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 <body>
-    <div style = "position:absolute; left:160px; top:40px;">
+    <div button>    
+        <button class="btn" onclick = "Home()"><i class="fa fa-home"></i></button>
+        
+        <input type = "button" 
+            style = "position:absolute; left:330px; top:40px; width:100px; height:40px; color:rgb(0, 0, 0); border: none; font-size: 16px;" 
+            onclick = "About()" 
+            value = "About">
+    </div>
+        
+    <img src="website/Images/deathicon.png" style = "position:absolute; left:800px; top:200px; width:300px; height:300x; -webkit-transform: scaleX(-1); transform: scaleX(-1);">
+    
+    <div style = "position:absolute; left:220px; top:85px;">
         <h1> hello </h1>
         
-        <p> links </p>
-        
         <div id="links">
-    <div class="link"> <a href="https://github.com/onyxam"> github </a> </div> 
-    <div class="link"> <a href="https://www.youtube.com/channel/UCgOuuyZ2QyfPONsJLlTrl1w"> youtube </a> </div> 
-    
-    </div>
-
+            <button class="btn" onclick = "GitHub()" style="position:absolute; left:0px; top:150px; background-color: transparent;" ><img src="website/Images/GitHub.png" style="width:120px; height:120x;" </button>
+            <button class="btn" onclick = "YouTube()" style="position:absolute; left:170px; top:135px; background-color: transparent;"><img src="website/Images/YouTube.png" style="width:150px; height:150x;" </button>
+        </div>
     </div>
     
-    <div style = "position:absolute; left:320px; top:85px;">
-        <p1> welcome to my professional website </p1>
+    <div style = "position:absolute; left:380px; top:85px;">
+        <p> and welcome to my scuffed website </p>
     </div>
 
-    </body>
-    </html>
+</body>
+</html>
+    
+    

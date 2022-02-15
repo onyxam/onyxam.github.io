@@ -1,34 +1,37 @@
  @font-face { font-family: opensans; src: url('website/Resources/NotoSansMono-Regular.otf');}
- @font-face { font-family: comicsans; src: url('website/Resources/comic.ttf');}
+ @font-face { font-family: epilogue-medium; src: url('website/Resources/Epilogue-Medium.ttf');}
+ @font-face { font-family: epilogue-regular; src: url('website/Resources/Epilogue-Regular.ttf');}
 
 body {
 	background-color: rgb(15, 16, 17);
 }
 
 h1 {
-	font-family: opensans;
-	font-style: italic;
+	font-family: epilogue-medium;
 	color: white;
 	font-size: 50px;
 }
 
 p {
-	font-family: opensans;
+	font-family: epilogue-regular;
 	color: white;
 	font-size: 40px;
 }
 
-p1 {
-	
-	font-family: comicsans;
-	color: rgb(0, 89, 255);
+a {
+	font-family: epilogue-regular;
+	color: purple;
 	font-size: 40px;
 }
 
-a {
-	font-family: opensans;
-	color: rgb(255, 0, 0);
-	font-size: 40px;
+.btn {
+	position:absolute;
+	left:220px; 
+	top:40px; 
+	width:100px; 
+	height:40px; 
+	color:rgb(0, 0, 0); 
+	border: none; 
 }
 
 #links {
@@ -39,8 +42,14 @@ a {
 }
 
 .link {
+	position:absolute;
 	display: inline-block;
-    width: 50%;
+	left:220px; 
+	top:40px; 
+    width: 45%;
     height: 100%;
 }
 
+.icon {
+	position:absolute;
+}
